@@ -1,0 +1,52 @@
+body{
+    background: tan;
+    box-sizing: border-box;
+}
+
+.chat {
+    margin: 0 auto;
+    width: 400px;
+    height: 700px;
+    background: slategray;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid;
+    padding: 6px;
+}
+
+.dialogWindow {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: cornsilk;
+}
+.windowChat {
+    height: 600px;
+    width: 100%;
+    border: 1px solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.sent {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt {
+    background: rgb(236, 212, 104);
+    border-radius: 10px;
+    height: 40px;
+}
+.btn {
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
